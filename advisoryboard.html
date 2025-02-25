@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<title>Advisory Board · Retskraft ⚖️</title>
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+<link rel="stylesheet" href="custom.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+<script type="text/javascript">
+	var images = [
+		"images/b8a.jpg",
+		"images/b9.jpg"
+	];
+	
+	var capts  = [
+		"Oplæg om retsdogmatisk metode i studenterafhandlinger ved medlem af Det Rådgivende Videnskabelige Panel, professor, dr.jur. Andreas Bloch Ehlers (2022)",
+		"Oplæg om retssociologisk metode i studenterafhandlinger ved medlem af Det Rådgivende Videnskabelige Panel, professor MSO, ph.d. Mikkel Jarle Christensen (2024)"
+	];
+
+	var rand = Math.floor(Math.random() * images.length);
+	
+	function getImageTag() {
+		var img = '<img src="';
+		img += images[rand];
+		img += '">';
+		return img;
+	}
+	
+	function getFigcaptionTag() {
+		var figcaption = '<figcaption>';
+		figcaption += capts[rand];
+		figcaption += '</figcaption>';
+		return figcaption;
+		
+	function endImageTag() {
+		return '</img>';
+	}
+	}
+	
+	
+</script>
+</head>
+<body>
+<header>
+<h1>Retskraft – <span lang="en">Copenhagen Journal of Legal Studies</span></i></h1>
+<nav><a href="index.html">Forside</a>
+	<a href="udgivelser.html">Udgivelser</a>
+	<a href="bidrag.html">Bidrag</a>
+	<a href="redaktion.html">Redaktion</a>
+	<a href="advisoryboard.html" lang="en">Advisory Board</a>
+</nav>
+</header>
+
+<h1 lang="en">Advisory Board</h1>
+
+<p>Det Rådgivende Videnskabelige Panel (<span lang="en">Advisory Board</span> på engelsk) er nedsat for løbende at evaluere tidsskriftets arbejde samt efter behov at rådgive om videnskabelige og redaktionelle problemstillinger. Flertallet af panelets medlemmer skal være anerkendte forskere fra forskellige fagområder ved Det Juridiske Fakultet, Københavns Universitet. Herudover kan panelet bestå af juridiske ph.d.-studerende og yngre forskere (<span lang="en">early career researchers</span>) fra forskellige fagområder ved Det Juridiske Fakultet, Københavns Universitet. Tidligere medlemmer af redaktionen kan også udpeges til panelet, men må ikke udgøre mere end en fjerdedel af panelets medlemmer.</p>
+
+<p>Panelet består pt. af følgende medlemmer:</p>
+
+<ul style="list-style-type:none;">
+	<li><b>Mikkel Jarle Christensen</b>, professor MSO, ph.d., Københavns Universitet</li>
+	<li><b>Michael Gøtze</b>, professor, ph.d., Københavns Universitet</li>
+	<li><b>Helle Vogt</b>, professor, ph.d., Københavns Universitet</li>
+	<li><b>Andreas Bloch Ehlers</b>, professor, dr.jur., Københavns Universitet</li>
+	<li><b>Henrik Palmer Olsen</b>, professor, dr.jur., Københavns Universitet</li>
+	<li><b>Mette Hartlev</b>, professor, dr.jur., Københavns Universitet</li>
+	<li><b>Jens Kristiansen</b>, professor, dr.jur., Københavns Universitet</li>
+	<li><b>Jakob Wested</b>, lektor, ph.d., Københavns Universitet</li>
+	<li><b>Hin-Yan Liu</b>, lektor, ph.d., Københavns Universitet</li>
+	<li><b>Beatriz Martinez Romera</b>, lektor, ph.d., Københavns Universitet</li>
+	<li><b>Rasmus Kristian Feldthusen</b>, professor, ph.d., Københavns Universitet</li>
+</ul>
+
+<figure>
+	<script>
+	document.write(getImageTag());
+	document.write(getFigcaptionTag());
+	document.write(endImageTag());
+	</script>
+</figure>
+
+<footer>
+<p>Retskraft – Copenhagen Journal of Legal Studies</p>
+<p>Det Juridiske Fakultet<br />
+Karen Blixens Plads 16<br />
+2300 København S</p>
+<p>ISSN 2596-4097 (print) · ISSN 2596-4100 (online)</p>
+</footer>
+</body>
+</html>

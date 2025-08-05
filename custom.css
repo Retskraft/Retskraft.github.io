@@ -40,6 +40,7 @@ header > nav a[aria-current="page"],
 header > nav a[aria-current="true"] {
 	border-color: #fff;
 	color: #fff;
+	background-color: #869FA8;
 	cursor: #fff;
 }
 
@@ -100,4 +101,5 @@ th {
 tr:nth-child(even) {
   /* Set every other cell slightly darker. Improves readability. */
   background-color: #fff;
+
 }
